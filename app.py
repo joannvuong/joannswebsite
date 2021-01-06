@@ -1,5 +1,7 @@
 from flask import Flask
 from flask import send_file
+import os
+port = int(os.environ.get("PORT", 5000))
 
 app = Flask(__name__)
 
@@ -27,4 +29,4 @@ def images(imagename):
     return send_file(filename)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=port)
