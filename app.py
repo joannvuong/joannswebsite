@@ -15,6 +15,7 @@ def main():
 </head>
 <body>
     <h1>Joann Vuong, data scientist</h1>
+    <p> this is a paragraph </p>
     <img src="/images/mainphoto.jpg"/>
 </body>
 </html>
